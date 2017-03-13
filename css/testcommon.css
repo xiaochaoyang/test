@@ -23,8 +23,9 @@ a:hover{color: #0cc757;text-decoration: underline;}
 .header .user{float: right;height: 18px;line-height: 18px;padding: 21px 10px 21px 0;}
 .header .user a{float: left;display: block;border-left: 2px solid #d2d2d2;padding: 0 10px;font-size: 18px;}
 .header .user a:first-child{border-left: none;}
-#title {position: absolute;top: 50%;left: 50%;margin-left: -280px;margin-top: -98px;width:559px;height:197px;background-image: url(../images/pc/tab_tu.png) no-repeat 0 0;z-index: 99;}
-#pictureRotate {display: block;position: absolute;}
+
+#pictureRotate {display: block;position: absolute;background-color: orange;}
+#title {position: absolute;background-image: url(../images/pc/tab_tu.png) no-repeat 0 0;z-index: 99;}
 #pictureRotate ul{width: 100%;z-index: -1;}
 #pictureRotate li{position: absolute;float: left;width: 100%;left: 0px;top: 0px;opacity: 0;}
 #pictureRotate li:first-child{opacity: 1;}
