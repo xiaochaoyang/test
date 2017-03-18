@@ -36,9 +36,57 @@ a:hover{color: #0cc757;text-decoration: underline;}
 #tab_head li{float: left;margin-right: 20px;width: 60px;height: 5px;overflow: hidden;cursor: pointer;background: #fff;border-radius: 2px;}
 #tab_head .indicater{position: absolute;top: 0px;left: 0px;width: 60px;height: 5px;background: #0cc757;border-radius: 2px;z-index: 2;}
 
-.main{margin-top: 20px;width: 1200px;height: 400px;background-color: orange;}
-.main_left{float: left;width: 940px;}
+.main{margin-top: 20px;width: 1200px;}
+.main_left{float: left;margin-right: -260px;width: 100%;}
 .main_left_nei{margin-right: 290px;}
 .main_right{position: relative;float: right;width: 260px;}
-#recommendLine{display: block;left: 40px;float: left;border-bottom: 3px solid #e2e2e2;height:40px;vertical-align: middle;font-family: "微软雅黑";font-size: 20px;font-weight: 100;line-height: 40px;};
+#recommendLine{border-bottom: 3px solid #e2e2e2;height:40px;vertical-align: middle;font-family: "微软雅黑";font-size: 20px;font-weight: bold;line-height: 40px;}
+.list{padding: 30px 0px;}
+.list li{position: relative;margin-bottom: 30px;padding-left: 330px;height: 210px;}
+.list li h2{height: 45px;line-height: 45px;overflow: hidden;white-space: nowrap;text-overflow: ellipsis;font-size: 18px;font-weight: bold;}
+.list li .price{line-height:35px;font-size:24px;font-weight:normal;color:#FC4642;}
+.list li .price span{font-size:18px;}
+.list li p{line-height: 30px;font-size: 14px;color: #969696;}
+.list li p span{padding-right: 10px;}
+.list li p span .s{padding-left: 100px;}
+.list li p font{color:#0cc757}
+.list li .pic{position: absolute;top: 0;left: 0;width: 300px;height: 210px;overflow: hidden;}
+.list li .pic img{width: 300px;height: 210px;transition:0.5s;}
+.list li .pic .label{position: absolute;top: 0;left: 15px;display: inline-block;padding-bottom: 7px;width: 70px;height: 28px;line-height: 28px;text-align: center;font-size: 16px;color: #fff;background: url(../images/pc/no_repeat.png) no-repeat 0 0;}
+.list li .pic .info{position: absolute;bottom: 0;left: 0;padding: 7px 15px;width: 270px;height: 24px;line-height: 24px;color: #fff;background: rgba(0,0,0,.5);}
+.list li .pic .info span{display: inline-block;padding: 0 2px;background: #0cc757;border-radius: 3px;}
+.list li:hover{background: #f5f5f5;}
+.list li:hover .pic img{transform: scale(1.2);}
+.list .more{height: 50px;line-height: 50px;text-align: center;}
+.list .more a {display: block;font-size: 20px;color: #0CC757;width: 200px;position: relative;float: left;margin-left: -100px;left: 50%;}
+.list .page{padding: 10px 0;height: 30px;line-height: 30px;text-align: center;font-size: 14px;}
+.list .page a{display: inline-block;margin: 0 5px;padding: 0 10px;color: #969696;}
+.list .page a .next{border-radius: 3px;color: #FFFFFF;background: #0CC757;}
+.list .page strong{display: inline-block;margin: 0 5px;padding: 0 10px;border-radius: 3px;color: #FFFFFF;background: #0CC757;}
 
+
+.week{position: relative;margin-top: 20px;margin-bottom: 30px;padding: 10px;background: #F5F5F5;}
+.week cite{position: absolute;top: -20px;display: inline-block;width: 10px;height: 20px;background: #F5F5F5;}
+.week cite .c1{left: 80px;}
+.week cite .c2{right: 80px;}
+.week_head{height: 48px;line-height: 48px;text-align: center;color: #FFFFFF;font-size: 16px;font-weight: bold;background: #0CC757;}
+.week_head a{color: #FFFFFF;}
+.week_head span{padding: 0 10px;}
+.week_body ol{width: 100%;overflow: hidden;}
+.week_body li{position: relative;float: left;width: 79px;height: 79px;border-right: 1px solid #F5F5F5;border-bottom: 1px solid #F5F5F5;font-size: 12px;color: #969696;background: #FFFFFF;}
+.week_body li em{position: absolute;top: 6px;left: 8px;}
+.week_body li i{position: absolute;top: 6px;right: 8px;}
+.week_body li a{position: absolute;top:50%;left: 0;margin-top: -10px;width: 80px;height: 20px;line-height: 20px;text-align: center;font-size: 18px;font-weight: bold;color: #0CC757;}
+.week_body li span{position: absolute;bottom: 6px;left: 0;width: 80px;text-align: center;}
+.week_body li .on{background: #E3F9EC;}
+
+
+.aside_list{}
+.aside_list li{padding: 10px;width: 240px;background: #F5F5F5;}
+.aside_list li .pic{position: relative;width: 240px;height: 150px;overflow: hidden;}
+.aside_list li .pic img{display: block;width: 240px;height: 150px;transition: border-left-width;.5s}
+.aside_list li .pic h3{position: absolute;bottom: 0;left: 0;padding: 0 10px;width: 220px;height: 42px;line-height: 21px;overflow: hidden;font-size: 14px;color: #FFFFFF;background: rgba(0,0,0,.5);}
+.aside_list li .pic h3 a{color: #FFFFFF;}
+.aside_list li .price{padding-left: 10px;line-height: 40px;font-size: 14px;color: #FC4642;background: #FFFFFF;}
+.aside_list li .price span{font-size: 10px;}
+.aside_list li:hover .pic img{transform: scale(1.2);}
